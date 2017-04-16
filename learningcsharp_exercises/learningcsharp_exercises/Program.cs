@@ -10,11 +10,17 @@ namespace learningcsharp_exercises
     {
         static void Main(string[] args)
         {
-            for(int counter = 0; counter < 11; counter++)  //intialize counter to 0, conditional - when the counter is less than 10, increment by 1
-                {
-                Console.WriteLine(counter);
-                }
-           
+
+            {
+                LinkTogether("x", "x");
+
+            }
+
+            void LinkTogether(string firstInput, string secondInput) //void means we aren't returning anything
+            {
+                string complete = firstInput + secondInput;
+                Console.WriteLine(complete);
+            }
 
         }
     }
