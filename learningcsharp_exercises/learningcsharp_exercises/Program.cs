@@ -12,8 +12,7 @@ namespace learningcsharp_exercises
         {
 
             { //calls the function
-                string hello;
-                hello = LinkTogether("Hello ", "World!");
+                string hello = LinkTogether("Hello, ", "World!");
                 Console.WriteLine(hello);
             }
 
