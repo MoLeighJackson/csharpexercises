@@ -11,9 +11,9 @@ namespace learningcsharp_exercises
         static void Main(string[] args)
         {
 
-            { //calls the function
-                string hello = LinkTogether("Hello, ", "World!");
-                Console.WriteLine(hello);
+            { 
+                //string hello = LinkTogether("Hello, ", "World!");
+                Console.WriteLine(LinkTogether("Hello,", " World!"));
             }
 
             string LinkTogether(string firstInput, string secondInput)
