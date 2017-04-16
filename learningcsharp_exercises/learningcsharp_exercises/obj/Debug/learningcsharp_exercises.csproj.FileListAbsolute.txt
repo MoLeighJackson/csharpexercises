@@ -1,0 +1,6 @@
+c:\users\moleigh\documents\visual studio 2017\Projects\learningcsharp_exercises\learningcsharp_exercises\bin\Debug\learningcsharp_exercises.exe.config
+c:\users\moleigh\documents\visual studio 2017\Projects\learningcsharp_exercises\learningcsharp_exercises\bin\Debug\learningcsharp_exercises.exe
+c:\users\moleigh\documents\visual studio 2017\Projects\learningcsharp_exercises\learningcsharp_exercises\bin\Debug\learningcsharp_exercises.pdb
+c:\users\moleigh\documents\visual studio 2017\Projects\learningcsharp_exercises\learningcsharp_exercises\obj\Debug\learningcsharp_exercises.csprojResolveAssemblyReference.cache
+c:\users\moleigh\documents\visual studio 2017\Projects\learningcsharp_exercises\learningcsharp_exercises\obj\Debug\learningcsharp_exercises.exe
+c:\users\moleigh\documents\visual studio 2017\Projects\learningcsharp_exercises\learningcsharp_exercises\obj\Debug\learningcsharp_exercises.pdb
