@@ -10,18 +10,14 @@ namespace learningcsharp_exercises
     {
         static void Main(string[] args)
         {
-
-            { 
-                //string hello = LinkTogether("Hello, ", "World!");
-                Console.WriteLine(LinkTogether("Hello,", " World!"));
-            }
-
-            string LinkTogether(string firstInput, string secondInput)
-            {
-                string complete = firstInput + secondInput;
-                return complete;
-            }
-
+            Summation(3, 2);
         }
+
+        static void Summation(int firstNum, int secondNum)
+        {
+            int summation = firstNum + secondNum;
+            Console.WriteLine("The Sum is: " + summation);
+        }
+
     }
 }
