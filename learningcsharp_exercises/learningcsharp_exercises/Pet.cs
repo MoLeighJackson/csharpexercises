@@ -18,7 +18,7 @@ namespace learningcsharp_exercises
         //encapsulation means to hide implementation
         public int Age
         {
-            get { return this.age; }
+            get { return age; }
             set {
 
                 if (value < 0)
@@ -32,7 +32,7 @@ namespace learningcsharp_exercises
                 }
 
                 else
-                this.age = value; }
+                age = value; }
         }
 
         public string Color
@@ -42,12 +42,12 @@ namespace learningcsharp_exercises
         }
 
         //functions
-        public void walk()
+        public virtual void Walk()
         {
             Console.WriteLine("Walked outside");
         }
 
-        public void speak()
+        public virtual void Speak()
         {
             Console.WriteLine("Bark");
         }
