@@ -10,9 +10,8 @@ namespace learningcsharp_exercises
     {
         static void Main(string[] args)
         {
-            Pet newPet = new Pet();
-            newPet.walk();
-            newPet.speak();
+            Pet Chappie = new Pet();
+            Chappie.Age = 26;
         }
 
     }
