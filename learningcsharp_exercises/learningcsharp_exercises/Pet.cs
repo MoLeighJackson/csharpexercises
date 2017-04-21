@@ -14,7 +14,34 @@ namespace learningcsharp_exercises
         private int age;
         private int yearAdopted;
 
-        //function
+        //properties - getters and setters - accessor methods
+        //encapsulation means to hide implementation
+        public int Age
+        {
+            get { return this.age; }
+            set {
+
+                if (value < 0)
+                {
+                    Console.WriteLine("Input must be greater than 0");
+                }
+
+                else if (value >= 26)
+                {
+                    Console.WriteLine("Wow, your pet can't be that old. Input a number between 0 and 25");
+                }
+
+                else
+                this.age = value; }
+        }
+
+        public string Color
+        {
+            get { return this.color; }
+            set { this.color = value; }
+        }
+
+        //functions
         public void walk()
         {
             Console.WriteLine("Walked outside");
