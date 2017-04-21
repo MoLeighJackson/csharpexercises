@@ -10,13 +10,9 @@ namespace learningcsharp_exercises
     {
         static void Main(string[] args)
         {
-            Summation(3, 2);
-        }
-
-        static void Summation(int firstNum, int secondNum)
-        {
-            int summation = firstNum + secondNum;
-            Console.WriteLine("The Sum is: " + summation);
+            Pet newPet = new Pet();
+            newPet.walk();
+            newPet.speak();
         }
 
     }
