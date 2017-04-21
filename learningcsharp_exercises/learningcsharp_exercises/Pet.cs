@@ -28,7 +28,7 @@ namespace learningcsharp_exercises
 
                 else if (value >= 26)
                 {
-                    Console.WriteLine("Wow, your pet can't be that old. Input a number between 0 and 25");
+                    Console.WriteLine("Wow, is that in human years or dog years!? Please input a number between 0 and 25");
                 }
 
                 else
